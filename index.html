@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vindo Pedro e Denilson</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            text-align: center;
+        }
+        .content {
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .welcome-text {
+            font-size: 24px;
+            color: #333;
+        }
+        .blink {
+            animation: blinker 1s linear infinite;
+        }
+        @keyframes blinker {
+            50% {
+                color: #ff0000; /* Vermelho */
+            }
+            75% {
+                color: #00ff00; /* Verde */
+            }
+            100% {
+                color: #0000ff; /* Azul */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo <span class="blink">Pedro</span> e <span class="blink">Denilson</span>!</h1>
+    </header>
+    <div class="container">
+        <div class="content">
+            <p class="welcome-text">Que a jornada de vocês seja repleta de sucesso e realizações!</p>
+            <p class="welcome-text">Este é o início de algo incrível!</p>
+        </div>
+    </div>
+</body>
+</html>
